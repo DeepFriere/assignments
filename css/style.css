@@ -17,10 +17,10 @@ p {
 }
 
 h1 {
-  color: #ff4343;          /* text color */
-  font-family: "Arial", sans-serif; /* font family */
-  font-size: 3rem;         /* optional: size */
-  font-weight: 700;        /* optional: boldness */
+  color: #ff4343;          
+  font-family: "Arial", sans-serif; 
+  font-size: 3rem;         
+  font-weight: 700;        
 }
 
 .pizza-image {
