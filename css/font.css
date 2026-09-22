@@ -1,20 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab&display=swap');
+
 @font-face {
     font-family: 'JimNightshade';
     src: url('../Fonts/Jim_Nightshade 2/JimNightshade-Regular.ttf') format('truetype');
 }
 
 h1 {
-    font-family: 'JimNightshade', serif;
+    font-family: 'Lora', serif;
 }
 
 h2 {
-    font-family: 'JimNightshade', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
-#para1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-#para2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+blockquote {
+    font-family: 'JimNightshade', cursive;
+}
+
+li {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    font-variant: small-caps;
 }
