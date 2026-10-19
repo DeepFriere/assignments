@@ -1,13 +1,18 @@
 table {
-    border-color: rgb(251, 2, 2);
+    border-color: rgb(2, 197, 251);
+    color: red;
+    background-color:rgb(2, 197, 251);
 }
-#imagething {
+img {
     height: 150px;
     width: 150px;
 }
 th {
     text-align: top;
 }
-#foot {
-    background-color:rgb(101, 25, 25);
+tfoot {
+    background-color:rgb(2, 197, 251);
+}
+tbody {
+    text-align: center;
 }
