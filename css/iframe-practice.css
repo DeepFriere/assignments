@@ -1,0 +1,13 @@
+body {
+    background-image: url(../imgs/poker-texture.jpg);
+}
+header {
+    text-align: center;
+    color: crimson;
+    background-color:white;
+    display: block;
+    padding: 15% 20%
+    border: bolder;
+    border-radius: 20%;
+    width: 200px;
+}
