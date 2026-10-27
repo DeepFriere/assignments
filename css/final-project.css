@@ -1,11 +1,35 @@
 body {
-    font-family:
+background-color:rgb(0, 0, 0);
+font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
     text-align:center;
+    display: block;
+     color: rgb(9, 213, 193);
+   
 }
 iframe {
     width: 600px;
     height: 750px;
+
+}
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.verity-joker {
+    width: 140px;
+    height: 200px;
+    transform: rotate(-20deg);
+}
+.imga {
+    text-align:left;
+    margin-left: 250px;
+    margin-top: 50px;
 }

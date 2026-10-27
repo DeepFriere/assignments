@@ -11,3 +11,18 @@ header {
     border-radius: 20%;
     width: 200px;
 }
+.video-container {
+   width: 100%;
+   aspect-ratio: 16 / 9;
+}
+
+.video-container iframe
+{
+   width: 100%;
+   height: 100%;
+   border: bold;
+   border-color: red;
+}
+.head {
+    text-align: center;
+}
