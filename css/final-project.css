@@ -6,21 +6,17 @@ font-family: "VT323", monospace;
 }
 
 header {
-    text-align:center;
-    display: block;
-     color: rgb(9, 213, 193);
-   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(9, 213, 193);
 }
 iframe {
     width: 600px;
     height: 750px;
 
-}
-
-.vt323-regular {
-  font-family: "VT323", monospace;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .verity-joker {
@@ -29,7 +25,8 @@ iframe {
     transform: rotate(-20deg);
 }
 .imga {
-    text-align:left;
-    margin-left: 250px;
-    margin-top: 50px;
+    margin-right: 20px;
+    left: 150px;
+    top: 50px;
+    text-align: left;
 }
