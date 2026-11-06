@@ -12,6 +12,11 @@ body {
     border-radius: 20px;
     text-align: left;
 }
-.form #phone {
+img {
+    height: 100px;
+    width: 150px;
+}
+.form .image {
     text-align: right;
+    display: inline;
 }
