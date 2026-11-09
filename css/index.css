@@ -72,20 +72,20 @@ h1 {
     display:inline-block;
     transition: transform 0.2s ease;
 }
-.a1:hover {
-    transform: scale(1.1)
+div {
+  animation-name: spin;
+  animation-duration: .5s;
+  animation-iteration-count: infinite; /* This makes it loop forever */
+  animation-direction: alternate;     /* Makes it play forward, then backward */
 }
-.a2:hover {
-    transform: scale(1.1)
-}
-.a3:hover {
-    transform: scale(1.1)
-}
-.a4:hover {
-    transform: scale(1.1)
-}
-.a5:hover {
-    transform: scale(1.1)
+
+@keyframes spin {
+  from {
+    transform: rotate(-1deg);
+  }
+  to {
+    transform: rotate(1deg);
+  }
 }
 
 
