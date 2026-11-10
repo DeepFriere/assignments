@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f1eb;
-  color: #242424;
+  background: rgb(99, 48, 72);
+  color: rgb(200, 130, 39);
 }
 
 .page {
@@ -20,21 +20,21 @@ body {
 
 .card {
   padding: 16px;
-  background: white;
+  background: rgb(4, 93, 4);
   border-radius: 10px;
 }
 
 .visual {
   height: 130px;
   border-radius: 8px;
-  background: #a9c7d8;
+  background: lightgoldenrodyellow;
 }
 
-.visual-two { background: #a8c58a; }
-.visual-three { background: #697995; }
-.visual-four { background: #d5b48c; }
-.visual-five { background: #668b70; }
-.visual-six { background: #b9c6ce; }
+.visual-two { background: lightyellow; }
+.visual-three { background: limegreen; }
+.visual-four { background: lightsalmon; }
+.visual-five { background: lightpink; }
+.visual-six { background: bisque; }
 
 .card h2 {
   margin-bottom: 8px;
@@ -47,6 +47,10 @@ body {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr); /**The fr divides space given evenly compared to the first column**/
     gap: 3px;
+}
+
+.featured {
+  grid-column: span 2;
 }
