@@ -1,0 +1,43 @@
+.current {
+    background-color: yellow;
+    border-color: green; 
+    display: inline-block;
+    border-style:solid;
+    text-align: center
+    
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+body {
+    background-color: lightseagreen;
+    
+}
+header {
+    background-color:green;
+    width: 100%;
+}
+
+#article1 {
+    background-color: lightblue;
+}
+
+#container{
+    margin: 200px;
+    border: dashed yellow 20px;
+    background-color: navy;
+}
+
+footer{
+    background-color: green;
+}
+
+#container #tiger {
+    text-align: right;
+    margin-right: 35px;
+}
