@@ -4,7 +4,7 @@
     display: inline-block;
     border-style:solid;
     text-align: center
-    
+    color: inherit border;
     
     
 }
@@ -37,7 +37,10 @@ footer{
     background-color: green;
 }
 
+header{
+    background-color: green;
+}
+
 #container #tiger {
-    text-align: right;
-    margin-right: 35px;
+    float: right;
 }
